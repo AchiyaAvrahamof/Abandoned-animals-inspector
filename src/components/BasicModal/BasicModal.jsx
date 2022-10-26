@@ -23,11 +23,11 @@ export default function BasicModal(props) {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const deleteTodo=(id)=>{
-    axios.delete(`/api/animals/${id}`).then()
+    axios.delete(`${process.env.REACT_APP_SECRET_NAME_backendURL}/api/animals/${id}`).then()
    } 
-   const save=()=>{
+   const save=()=>{  
     alert("תודה שטיפלת בדיווח הציבור מודה לך")
-    
+    deleteTodo(props.id)
     
    }
   return (
@@ -44,6 +44,7 @@ export default function BasicModal(props) {
           <div className='photoandC'>
           <Box sx={{ display: "flex", justifyContent: "space-between",  }}>
             <img
+            alt='img'
               src={props.image}
               width={"40%"}
             />

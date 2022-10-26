@@ -1,6 +1,5 @@
 import PetCards from '../../components/petcards/PetCards';
 import './home.css';
-import {Image} from 'cloudinary-react'
 import axios from 'axios'
 import { useEffect, useState } from 'react';
 import Footer from '../footer/Footer';
@@ -11,19 +10,20 @@ function Home() {
   const [counterb,setCounterb]=useState(0)
   
   const getAnimals = () => {
-      axios.get('/api/animals')
+      axios.get(`${process.env.REACT_APP_SECRET_NAME_backendURL}/api/animals`)
       .then((res) => {
               res.data && setAllData([...res.data])
               console.log(allData);
               setCounter(allData.length)
           })
+          if (counterb<counter) {
+            alert('התווסף דיווח חדש')
+            setCounterb(counter)
+          }
   }
   useEffect(()=>{
       getAnimals()
-      if (counterb<counter) {
-        alert('התווסף דיווח חדש')
-        setCounterb(counter)
-      }
+      
      })
 
     const images =[

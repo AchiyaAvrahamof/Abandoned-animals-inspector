@@ -1,5 +1,5 @@
-import React, { useCallback } from 'react';
-import { FaFacebook, FaInstagram, FaYoutube, FaCalendarAlt, FaPhone, FaQuestionCircle, FaUserFriends, FaHandshake, FaHeart } from 'react-icons/fa';
+import React  from 'react';
+import { FaFacebook, FaInstagram, FaYoutube, FaPhone, FaQuestionCircle, FaUserFriends } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 // import { Link, useNavigate } from 'react-router-dom';
 import './footer.css'
