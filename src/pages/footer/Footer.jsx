@@ -9,7 +9,7 @@ function Footer() {
     // const   handleOnClickFaq= useCallback(() => navigate('/Faq', {replace: true}), [navigate]);
     // const   handleOnClickBook1= useCallback(() => navigate('/Bookstep1', {replace: true}), [navigate]);
     // const   handleOnClickContribute= useCallback(() => navigate('/contribute', {replace: true}), [navigate]);
- 
+
     return (
         <div className='end-section'>
             <table>
@@ -17,21 +17,16 @@ function Footer() {
                     <tr>
                         <th >עוד עלינו</th>
                         <th>צרו קשר</th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td >שאלות ותשובות <FaQuestionCircle className='faq'  /></td>
+                        <td >שאלות ותשובות <FaQuestionCircle className='faq' /></td>
                         <td>054-1234567 <FaPhone className='phone' /></td>
                     </tr>
                     <tr>
                         <td >הצטרפו אלינו <FaUserFriends className='join' /></td>
-                        <td>Hakayak@gmail.com <MdEmail className='mail' /></td>
-                    </tr>
-                    <tr>
-                        <td className='social-media-icons'>
-                        </td>
+                        <td>example@gmail.com <MdEmail className='mail' /></td>
                     </tr>
                 </tbody>
             </table>
@@ -40,6 +35,7 @@ function Footer() {
                 <FaInstagram className='instagram' />
                 <FaYoutube className='youtube' />
             </span>
+
         </div>
     );
 }
