@@ -23,12 +23,6 @@ body
   background-color: rgb(250, 215, 242);
 }
 
-body
-  > div.MuiModal-root.css-79ws1d-MuiModal-root
-  > div.MuiBox-root.css-1t33mwp
-  > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
-}
-
 .MuiCardActions-root.MuiCardActions-spacing.css-1t6e9jv-MuiCardActions-root {
   background-color: rgb(105 119 166);
 }
@@ -36,8 +30,6 @@ body
   background-color: rgb(105 119 166) !important;
 }
 
-element.style {
-}
 body
   > div.MuiModal-root.css-79ws1d-MuiModal-root
   > div.MuiBox-root.css-1t33mwp {
