@@ -1,18 +1,60 @@
+.dimona-logo-img {
+  width: 40vw;
+  margin-top: 3vh;
+}
 .album-image {
-    width: 250px;
-    height: 225px;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-  }
+  width: -webkit-fill-available;
+  height: 30vh;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
 
-  .petCards{
-    background: linear-gradient(rgb(255, 190, 169), #a5a7a6);
-  }
-  body > div.MuiModal-root.css-79ws1d-MuiModal-root > div.MuiBox-root.css-1t33mwp{
-    background-color: antiquewhite;
-  }
+/* change the gradient */
+/* .petCards {
+  background: linear-gradient(rgb(255, 190, 169), #a5a7a6);
+} */
+.petCards {
+  background: linear-gradient(rgb(0 28 119 / 76%), #bebfbf);
+}
+body
+  > div.MuiModal-root.css-79ws1d-MuiModal-root
+  > div.MuiBox-root.css-1t33mwp {
+  background-color: rgb(250, 215, 242);
+}
 
-  body > div.MuiModal-root.css-79ws1d-MuiModal-root > div.MuiBox-root.css-1t33mwp > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
-    margin-left: 40%;
-  }
+body
+  > div.MuiModal-root.css-79ws1d-MuiModal-root
+  > div.MuiBox-root.css-1t33mwp
+  > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+}
+
+.MuiCardActions-root.MuiCardActions-spacing.css-1t6e9jv-MuiCardActions-root {
+  background-color: rgb(105 119 166);
+}
+.css-1vqzd1o-MuiCardContent-root {
+  background-color: rgb(105 119 166) !important;
+}
+
+element.style {
+}
+body
+  > div.MuiModal-root.css-79ws1d-MuiModal-root
+  > div.MuiBox-root.css-1t33mwp {
+  background-color: rgb(105 119 166);
+}
+
+.css-10o5cdv-MuiTypography-root {
+  font-size: large !important;
+}
+.css-jvv16w-MuiButtonBase-root-MuiButton-root {
+  color: black !important;
+  font-size: large !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: black !important;
+  padding-right: 0 !important;
+  text-decoration: underline !important;
+  font-size: large !important;
+}

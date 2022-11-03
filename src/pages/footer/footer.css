@@ -1,72 +1,71 @@
-*{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.end-section{
-  background-color:  #a5a7a6;
-;
+.end-section {
+  background-color: #bebfbf;
 }
 
-.faq{
+.faq {
   background-color: none;
 }
 table {
-    width: 100%;
-    border-spacing: 50%;
-    margin-bottom: -12vh;
-  }
-  
-  th {
-    height: 8vh;
-    font-size: xx-large;
-    margin-bottom: 0%;
-    text-align: center;
-    
-    
-  }
+  width: 100vw;
+  margin-bottom: -12vh;
+  text-align: center;
+}
 
-  td {
-    height: 8vh;
-    font-size: x-large;
-    margin-bottom: 0%;
-  }
-  td :hover{
-    color:#175A40;
-  }
+th {
+  height: 8vh;
+  font-size: xx-large;
+  margin-bottom: 0%;
+  text-align: center;
+}
 
-  .social-media-icons{
-    color:black;
-    font-size: 10vh;
-    margin-top: 0px;
-  }
+td {
+  height: 8vh;
+  font-size: x-large;
+  margin-bottom: 0%;
+}
+td :hover {
+  color: rgb(0 28 119 / 76%);
+}
+
+.social-media-icons {
+  color: black;
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 12vh;
+}
 
 .social-media-icons .facebook {
 }
-.social-media-icons .facebook :hover{
+.social-media-icons .facebook :hover {
   color: rgb(39, 39, 255);
-  }
+}
 
-.social-media-icons .instagram{
-margin-left: 1vw;
-margin-right: 1vw;
+.social-media-icons .instagram {
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
-.social-media-icons .instagram :hover{
-color: purple;
+.social-media-icons .instagram :hover {
+  color: purple;
 }
-.social-media-icons .youtube{
-
+.social-media-icons .youtube {
 }
-.social-media-icons .youtube :hover{
-  color:#FF0000
+.social-media-icons .youtube :hover {
+  color: #ff0000;
 }
 
 @media screen and (max-width: 768px) {
   th {
-  font-size: small;
+    font-size: small;
   }
 }
 @media screen and (max-width: 768px) {
   td {
-   font-size: small;
+    font-size: small;
   }
 }

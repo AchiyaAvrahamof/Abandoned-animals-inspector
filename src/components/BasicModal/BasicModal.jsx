@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-
+import axios from 'axios'
 const style = {
   position: 'absolute',
   top: '50%',
@@ -20,10 +20,13 @@ export default function BasicModal(props) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
+  const deleteTodo=(id)=>{
+    axios.delete(`${process.env.REACT_APP_SECRET_NAME_backendURL}/api/animals/${id}`).then()
+    
+   } 
   const save=()=>{
+       deleteTodo(props.id);
         alert("תודה שטיפלת בדיווח הציבור מודה לך")
-        
         
        }
   return (
@@ -44,13 +47,15 @@ export default function BasicModal(props) {
           <Typography dir='rtl' id="modal-modal-title" variant="h6" component="h2">
             פרטים נוספים:
           </Typography>
-          <Typography dir="rtl" id="modal-modal-description" sx={{ mt: 2 }}>
-         {`${props.name}`}, <a href={`tel:${props.phone}`}>{props.phone}</a>, 
+          <Typography dir="rtl" id="modal-modal-description" sx={{ mt: 0 }}>
+         {`${props.name}`}
           </Typography>
+          <Typography dir="rtl" id="modal-modal-description" sx={{ mt: 0 }}>
+          <a className='user-phone-link' href={`tel:${props.phone}`} style={{color: "black"}}>{props.phone}</a>
+          </Typography>
+          <Typography dir="rtl" id="modal-modal-description" sx={{ mt: 0 }}>
           <Button onClick={()=>window.open("https://maps.google.com?q="+props.place)}>
-            {`${props.place}`}
-         </Button>
-          <Typography dir="rtl" id="modal-modal-description" sx={{ mt: 2 }}>
+          {`${props.place}`}</Button>
           </Typography>
           <Button dir='rtl' size="midume" onClick={()=>save()}>שמירה</Button>
         </Box>

@@ -11,6 +11,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
+import './signInSide.css'
 // import { Link } from 'react-router-dom';
 
 
@@ -54,7 +55,7 @@ export default function SignInSide() {
               alignItems: 'center',
             }}
           >
-            <Avatar sx={{ m: 1}}>
+            <Avatar sx={{ m: 1 }}>
             </Avatar>
             <Typography dir='rtl' component="h1" variant="h5">
               כניסה
@@ -69,7 +70,7 @@ export default function SignInSide() {
                 label="כתובת דואר אלקטרוני"
                 name="email"
                 autoComplete="email"
-                autoFocus 
+                autoFocus
               />
               <TextField
                 margin="normal"
@@ -84,18 +85,18 @@ export default function SignInSide() {
               />
               <Link to="home">
 
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                sx={{ mt: 3, mb: 2 }}
-                
-              >
-                התחברות
-              </Button>
+                <Button
+                  type="submit"
+                  fullWidth
+                  variant="contained"
+                  sx={{ mt: 3, mb: 2 }}
+
+                >
+                  התחברות
+                </Button>
               </Link>
-              
-              
+
+
             </Box>
           </Box>
         </Grid>
