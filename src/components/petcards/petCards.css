@@ -7,5 +7,12 @@
   }
 
   .petCards{
-    background: linear-gradient(#e66465, #7a7a7b);
+    background: linear-gradient(rgb(255, 190, 169), #a5a7a6);
+  }
+  body > div.MuiModal-root.css-79ws1d-MuiModal-root > div.MuiBox-root.css-1t33mwp{
+    background-color: antiquewhite;
+  }
+
+  body > div.MuiModal-root.css-79ws1d-MuiModal-root > div.MuiBox-root.css-1t33mwp > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    margin-left: 40%;
   }

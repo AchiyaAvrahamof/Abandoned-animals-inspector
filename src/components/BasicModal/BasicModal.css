@@ -1,7 +1,6 @@
 .photoandC{
     display: flex;
-    justify-content: space-between;
-    background-color: aqua;
+    background-color: wheat;
 }
 .allCon{
     display: flex;
@@ -13,6 +12,9 @@
 .animalD{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    background-color: wheat;
+}
+
+.basicModel_box{
     background-color: aquamarine;
 }
