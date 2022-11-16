@@ -46,6 +46,7 @@ Dashbord, when clicking on the animal it will show you all the details and let y
    Client:
    
    -ReactJs
+   -cloudinary
    
    
    Server:
