@@ -58,5 +58,10 @@ Dashbord, when clicking on the animal it will show you all the details and let y
    
 ## What next <a name="next"></a>
 - [ ] make the filter bar functional
-- [ ] make new design section
+- [X] make new design section
 - [ ] Add section about report that take care
+- [ ] Make Login functional
+- [ ] Fix first alert
+- [ ] Fix delete function
+
+
