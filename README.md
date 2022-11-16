@@ -40,7 +40,7 @@ to add reports go to [report form](https://github.com/AchiyaAvrahamof/Abandoned-
 ## Screenshots <a name="Screenshots"></a>
 Dashbord, when clicking on the animal it will show you all the details and let you nevigate and make a phone call
 
-![alt text](https://res.cloudinary.com/dptzubs72/image/upload/v1666178470/2022-10-19_7_nlg3zk.png)
+![alt text](https://res.cloudinary.com/dptzubs72/image/upload/v1668584566/2022-11-16_nqvlhh.png)
  
 ## Technologies <a name="Technologies"></a>
    Client:
